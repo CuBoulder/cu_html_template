@@ -2,10 +2,10 @@ This is a responsive CU Boulder branded HTML template built with the Bootstrap C
 
 This repo contains:
 * HTML templates for: 
-  * home pages
-  * sub pages
-  * profiles
-  * content list pages
+  * home pages (index.html, home2.html)
+  * sub pages (page.html)
+  * profiles (profile.html)
+  * content list pages (list.html)
 
 ## Search
 
