@@ -10,10 +10,17 @@ This repo contains:
 ## CU Options/Styles
 
 There are some "cu-" prefixed classes that allow additional styling of elements:
+
+### Jumbotron
+
 * cu-jumbotron-inverse - Sets the jumbotron to have white text and a black background
 * cu-jumbotron-photo - Helper class for size and position of background photos applied to jumbotrons
 * cu-jumbotron-center - Centers jumbotron content
+
+### Subnavigation
 * cu-nav-sub - Apply to unordered list to create a subnavigation menu (supports up to 6 menu levels - only apply to top ul element)
+
+### Images
 * cu-thumbnail - Sizing for thumbnail images
 * cu-thumbnail-float-left - Floats thumbnail images to the left
 * cu-thumbnail-float-right - Floats thumbnail images to the right
