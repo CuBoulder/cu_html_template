@@ -19,7 +19,7 @@ There are some "cu-" prefixed classes that allow additional styling of elements:
 * cu-thumbnail-float-right - Floats thumbnail images to the right
 * cu-image-pad-left - Fives left margin to image (use with float classes)
 * cu-image-pad-left - Fives right margin to image (use with float classes)
-* cu-image-xs-*, cu-image-sm-*, cu-image-md-*, cu-image-lg-* - Apply to images to set a relative width (* = 1-12)
+* cu-image-xs-X, cu-image-sm-X, cu-image-md-X, cu-image-lg-X - Apply to images to set a relative width (X = number of columns: 1-12)
 
 ## Search
 
