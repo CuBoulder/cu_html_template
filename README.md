@@ -28,6 +28,13 @@ There are some "cu-" prefixed classes that allow additional styling of elements:
 * cu-image-pad-left - Fives right margin to image (use with float classes)
 * cu-image-xs-X, cu-image-sm-X, cu-image-md-X, cu-image-lg-X - Apply to images to set a relative width (X = number of columns: 1-12)
 
+### Floats
+ (Work well with the above image classes)
+ * cu-xs-float-left, cu-xs-float-right
+ * cu-sm-float-left, cu-sm-float-right
+ * cu-md-float-left, cu-md-float-right
+ * cu-lg-float-left, cu-lg-float-right
+
 ## Search
 
 To enable the search, insert your site's base url in the "site_url" field value attribute
