@@ -1,11 +1,11 @@
+/* Background */
+
 body {
   background:#000;
 }
 .cu-page-top {
   background-color: #fff;
 }
-
-/* Links */
 
 
 /* Images */
@@ -99,6 +99,9 @@ ul.cu-nav-sub li.active > a {
 .cu-footer .cu-contact-info,
 .cu-footer .cu-campus-info {
   margin-bottom: 20px;
+}
+.cu-footer .cu-campus-info img {
+  max-width:240px;
 }
 
 /* Below Content */
