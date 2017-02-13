@@ -1,4 +1,4 @@
-This is a responsive CU Boulder branded HTML template built with the <a href="http://getbootstrap.com">Bootstrap CSS framework</a>. Edits or modifications to these templates should follow <a href="http://www.colorado.edu/brand">CU Boulder brand standards</a>.
+This is a responsive CU Boulder branded HTML template built with the <a href="http://getbootstrap.com">Bootstrap CSS framework</a>. Edits or modifications to these templates should follow CU Boulder <a href="http://www.colorado.edu/brand">brand standards</a> and <a href="http://www.colorado.edu/accessibility/policy-and-standards">accessibility guidelines</a>.
 
 This repo contains:
 * HTML templates for: 
