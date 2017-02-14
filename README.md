@@ -6,6 +6,14 @@ This repo contains:
   * sub pages (page.html)
   * profiles (profile.html)
   * content list pages (list.html)
+  
+## Support
+
+These template files are provided as-is and Strategic Relations offers no support in modifying these files.
+
+## Logo
+
+Official logo images can be requested from the <a href="http://www.colorado.edu/brand">CU Boulder Brand website</a>.
 
 ## CU Options/Styles
 
