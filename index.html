@@ -1,175 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>CU Boulder HTML Template</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- CU Styles -->
-    <link href="css/cu-styles.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-    
-    
+    <title>Example | CU Boulder HTML Template | University of Colorado Boulder</title>
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/ucb-styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/v4-shims.css">
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
   </head>
-  <body>
-    <div class="cu-page-top">
-      <div class="container">
-        <!-- Branding -->
-        <div class="cu-branding row">
-          <div class="logo col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <a href="#"><img src="images/banner.png" alt="Department/Unit Name" /></a>
-          </div>
-          <div class="cu-search col-lg-3 col-md-3 col-sm-3 col-xs-12 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
-            <form class="cu-search-form hidden-xs" action="http://www.colorado.edu/gsearch" method="get">
-              <div class="form-group">
-                <label for="searchInput" class="sr-only">Search</label>
-                <input type="text" class="form-control search-input" placeholder="Search" name="q" />
-                <input type="hidden" value="PUT YOUR URL HERE" name="site_url" />
-                <button type="submit" class="sr-only sr-only-focusable">Submit</button>
-             </div>
-            </form>
-          </div>
+  <body class="headings-bold background-color-black">
+    <div class="page">
+      <div class="background-black brand-bar brand-bar-black">
+        <div class="container">
+          <script type="text/javascript" src="https://cdn.colorado.edu/static/brand-assets/live/js/brand-bar.js" id="ucb-brand-bar-embed" data-color="black"></script>
         </div>
-        <!-- /Branding -->
-        <!-- Main Navigation -->
-        <nav class="navbar navbar-inverse">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-              <form class="cu-search-form hidden-sm hidden-md hidden-lg" action="http://www.colorado.edu/gsearch" method="get">
-                <div class="form-group">
-                  <label for="searchInput" class="sr-only">Search</label>
-                  <input type="text" class="form-control search-input" placeholder="Search" name="q" />
-                  <input type="hidden" value="PUT YOUR URL HERE" name="site_url" />
-                  <button type="submit" class="sr-only sr-only-focusable">Submit</button>
-               </div>
-              </form>
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> <span class="sr-only sr-only-focusable">Home</span></a></li>
-                <li><a href="home2.html">Home 2</a></li>
-                <li><a href="page.html">Page</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="list.html">List</a></li>
-              </ul>
-              
-            </div><!--/.nav-collapse -->
+      </div>
+      <header class="ucb light" role="banner">
+        <div class="container">
+          <a href="/">CU Boulder Web Style Guide</a>
+        </div>
+      </header>
+      <div class="background-color-gray-dark">
+        <div class="container">
+          <nav role="navigation" class="ucb-navbar ucb-navbar-dark text-minify">
+            <label for="show-main-menu" class="show-menu">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+    <span class="element-invisible">Menu</span>
+  </label>
+  <input type="checkbox" id="show-main-menu" role="button">
+          <ul>
+            <li><a href="#" class="active"> <i class="fa fa-home"></i> <span class="display-inline invisible-md invisible-lg">Home</span></a></li>
+            <li><a href="#">Link One</a></li>
+            <li><a href="#">Link Two</a></li>
+            <li><a href="#">Link Three</a></li>
+            <li><a href="#">Link Four</a></li>
+          </ul>
         </nav>
-        <!--/Main Navigation -->      </div>
-      
-      <div class="cu-intro">
-        <div class="jumbotron cu-jumbotron-inverse cu-jumbotron-photo" style="background-image:url(images/photos/forest-1500x750.jpg);" >
-          <div class="container">
-            <h1>Hello, world!</h1>
-          <p>Auctor maecenas ut est dictum tempor dictumst arcu massa donec facilisi aenean magna massa.</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-          </div>
         </div>
       </div>
-        
-      <div class="container">
-        <div class="content row">
-          <div class="main col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <p class="lead">Senectus diam ipsum dictumst blandit tempus nam gravida orci mollis proin tellus, nunc parturient cum cum accumsan quam adipiscing. Pulvinar diam nostra. Varius dictumst vel pede dictum. Donec cursus eleifend amet at fames interdum blandit phasellus fringilla.</p>
-  
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="col-lg-12 col-md-12-col-sm-12 col-xs-12">
-            <h2>Block Columns</h2>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <img src="images/photos/stars-1500x750.jpg" />
-            <h3><small>Senectus hendrerit platea turpis</small></h3> 
-            <p>Ac faucibus integer. Phasellus urna cursus. Cras. Porta interdum cum in dictum nunc inceptos nonummy parturient elementum fringilla ac torquent nisi tortor malesuada pede. Erat platea a integer mollis habitasse quisque. Eros taciti natoque, cras sit.</p>
-          </div>
-          
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <img src="images/photos/shoes-1500x750.jpg" />
-            <h3><small>Sem cum accumsan justo cubilia imperdiet dolor</small></h3> 
-            <p>Class auctor vitae nibh torquent torquent, taciti aptent, dignissim. Montes. Montes varius congue. Netus duis urna et. Sagittis sagittis imperdiet faucibus condimentum. Etiam platea parturient commodo tortor amet bibendum Eu lorem mauris velit.</p>
-          </div>
-          
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <img src="images/photos/jeep-1500x750.jpg" />
-            <h3><small>Cras, quam dictum tempor. Leo malesuada potenti nostra leo</small></h3> 
-            <p>Amet aptent, nascetur sociosqu elit sit ligula ridiculus. Erat mollis tempus feugiat. Cras amet. Cras magna in fusce facilisis cubilia lorem elit. Vivamus primis pellentesque pretium consectetuer, nascetur ultricies suscipit sociosqu.</p>
-          </div>
-          
-        </div>
-  
-      </div><!-- /.container -->
-    </div>
-    <div class="cu-below-content">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <h2><small>Links</small></h2>
-            <div class="list-group">
-              <a href="#" class="list-group-item">
-                Cras justo odio
-              </a>
-              <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-              <a href="#" class="list-group-item">Morbi leo risus</a>
-              <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-              <a href="#" class="list-group-item">Vestibulum at eros</a>
+      <div class="background-white padding-large-top padding-large-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h1 id="page-title">Introduction</h1>
+              <section>
+                <p>The CU Boulder Web Style Guide is a comprehensive resource that provides descriptions and code for:</p>
+<ul>
+    <li>how to apply the CU Boulder Web Brand Identity Standards;</li>
+    <li>and, a collection of reusable styles and components for use on official campus web projects.</li>
+</ul>
+
+<p>The design and content of this style guide is a work in progress, but is being actively worked on.</p>
+<p><a href="https://github.com/CuBoulder/styleguide" class="button button-blue"><i class="fab fa-github"></i> View this project on Github</a> <a href="https://raw.githubusercontent.com/CuBoulder/styleguide/master/css/ucb-styles.css" class="button button-blue"><i class="fas fa-download"></i> Download</a></p>
+
+
+              </section>
             </div>
           </div>
-          
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <h2><small>More Links</small></h2>
-            <div class="list-group">
-              <a href="#" class="list-group-item">
-                Cras justo odio
-              </a>
-              <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-              <a href="#" class="list-group-item">Morbi leo risus</a>
-              <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-              <a href="#" class="list-group-item">Vestibulum at eros</a>
+
+        </div>
+      </div>
+      <footer class="background-black padding-top padding-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              This HTML template is a resource provided by <a href="https://www.colorado.edu/strategicrelations">Strategic Relations and Communications</a>.
+            </div>
+            <div class="col-log-4 col-md-4 col-sm-6 col-xs-12 offset-lg-4 offset-md-4">
+              <script type="text/javascript" src="https://cdn.colorado.edu/static/brand-assets/live/js/footer.js" id="ucb-footer-embed" data-color="white"></script>
             </div>
           </div>
         </div>
-      </div>
+      </footer>
     </div>
-    
-    <div class="cu-footer">
-      <div class="container">
-        <div class="row">
-          <div class="cu-contact-info col-lg-9 col-md-9 col-sm-8 col-xs-12">
-            Site Contact Information
-          </div>
-          <div class="cu-campus-info col-lg-3 col-md-3 col-sm-4 col-xs-12">
-            <img src="images/be-boulder-white.png" alt="Be Boulder." />
-            <p>
-              <strong><a href="http://www.colorado.edu">University of Colorado Boulder</a></strong><br>&copy; Regents of the University of Colorado<br>
-            <span class="required-links"><a href="http://www.colorado.edu/about/privacy-statement">Privacy</a> • <a href="http://www.colorado.edu/about/legal-trademarks">Legal &amp; Trademarks</a></span>
-            </p>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/cu-search.js"></script>
   </body>
 </html>
+<!-- ### -->
+<!-- Build Time 2019-11-19 18:00:43 +0000 -->
